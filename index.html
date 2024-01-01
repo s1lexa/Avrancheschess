@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Échecs Avranches</title>
+</head>
+<body>
+    <header>
+        <h1 ><a href="index.html" ><p id="title">Club d'échecs d'Avranches</p></a></h1>
+    </header>
+
+    <nav>
+        <ul>
+            <nav>
+                <ul>
+                    <li><a href="index.html" id="home">Accueil</a></li>
+                    <li><a href="#a-propos" id="about-heading">À propos</a></li>
+                    <li><a href="#evenements" id="event">Événements</a></li>
+                    <li><a href="#membres" id="membres">Membres</a></li>
+                    <li><a href="#cours" id="exercice">Exercice</a></li>
+                    <li><a href="#blog" id="blog">Blog</a></li>
+                    <li><a href="#galerie" id="galerie">Galerie</a></li>
+                    <li><a href="#contact" id="contact">Contact</a></li>  
+                    <li>
+                        <label for="langSelect">Langue :</label>
+                        <select id="langSelect" onchange="changeLanguage(this.value)">
+                        <option value="fr">Français</option>
+                        <option value="en">English</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Contenu principal de la page -->
+            <img src="logo.jpg" alt="Image du club d'échecs">
+
+        <section class="text">
+            <!-- Le contenu de la section Accueil -->
+            <h2 id="about-heading" class="text_h2">À propos</h2>
+                <p id="about_text1" class="text_p">Envie de pratiquer le jeu d'échecs au sein d'un club ?</p><br>
+                <p id="about_text2" class="text_p">L'association Avranches-échecs Pays de la baie invite les amateurs, débutant et expert à partager le plaisir du jeu, en loisirs et pourquoi pas en compétition. Une idée née à l'initiative de deux Avranchinais, François Codet, et Stéphane Gallon.</p><br><br>
+                <p id="about_text3" class="text_p">Tout logiquement donc baptisé Avranches-échecs Pays de la baie, le nouveau club accueillera toutes celles et ceux, de tous âges qui souhaitent partager un moment convivial avec d'autres joueurs.</p><br><br>
+                <p id="about_text4" class="text_p">Un jeu accessible à tous.</p><br>
+                <p id="about_text5" class="text_p">Mémorisation, raisonnement logique, concentration, imagination, anticipation... La pratique du jeu d'échecs permet de développer de nombreuses capacités.</p>
+                <p id="about_text6" class="text_p">C'est un jeu accessible à tous, à n'importe quel âge, et dont les règles, que l'on peut apprendre seul, n'ont rien de compliqué. Des règles qu'il faudra néanmoins connaître avant de rejoindre le club.</p>
+        </section>
+
+
+
+
+    </main>
+    <br><br><br><br>
+    <footer>
+        <p>&copy; 2024 Club d'Échecs d'Avranches. Tous droits réservés.
+            <br>Réalisé par Alexis DOUTEZ
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

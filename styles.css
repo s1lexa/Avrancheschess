@@ -1,0 +1,154 @@
+/* Reset de certaines valeurs par défaut des navigateurs */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFFF;
+    color: #333333;
+}
+
+body {
+    background-image: url('img_fond.jpg');
+    background-size: cover; /* Ajuste la taille de l'image pour couvrir tout le corps */
+    background-position: center; /* Centre l'image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+}
+
+
+h1, h2, h3 {
+    font-weight: bold;
+}
+
+/* Header Styles */
+header {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 20px;
+}
+
+header a{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #333333;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #F5F5F5;
+    color: #333333;
+}
+
+/* Main Content Styles */
+main {
+    margin: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+body img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+}
+
+/* Bouton */
+/* Styles pour le bouton de changement de langue */
+select {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    margin-bottom: 10px; /* Ajout d'un espace en bas du bouton */
+}
+
+/* Ajoutez un peu d'espace autour du bouton */
+label {
+    margin-right: 10px;
+}
+
+/* Change la couleur du texte au survol du bouton */
+select:hover {
+    color: #555;
+}
+
+/* Change la couleur de fond au survol du bouton */
+select:hover, select:focus {
+    background-color: #f5f5f5;
+    outline: none;
+}
+
+/* Main texte */
+
+/* Styles spécifiques à la section "À propos" */
+.text {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin: 20px auto; /* Centre la section horizontalement avec une marge externe */
+    max-width: 75%; /* Ajuste la largeur maximale pour s'adapter à l'écran */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.text_h2 {
+    color: #f8f8f8;;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text_p {
+    font-size: 18px;
+    color: #f8f8f8;
+    text-align: left;
+
+}
+
+/* Ajoutez d'autres styles spécifiques à la section "À propos" au besoin */
